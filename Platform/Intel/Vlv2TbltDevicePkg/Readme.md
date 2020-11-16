@@ -97,7 +97,7 @@ build -a IA32 -a X64 -n 5 -t VS2015x86 -b DEBUG -p Vlv2TbltDevicePkg\PlatformPkg
 * Build X64 Release Image with build log
 
 ```
-build -a IA32 -a X64 -n 5 -t VS2015x86 -b RELEASE Vlv2TbltDevicePkg\PlatformPkgX64.dsc -j Vlv.log
+build -a IA32 -a X64 -n 5 -t VS2015x86 -b RELEASE -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc -j Vlv.log
 ```
 
 * Build IA32 Debug Image
